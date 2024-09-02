@@ -14,7 +14,7 @@ $gradient-theme: 'dark-blue';
 body {
   background: get-gradient($gradient-theme);
   color: if($gradient-theme == 'gray', #333333, #ffffff);
-  background-color: #591bcb; /* Light gray background */
+  background-color: #ff0000; /* Red background */
 }
 
 .site-header {
