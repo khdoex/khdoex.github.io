@@ -5,8 +5,7 @@ title: Home
 
 # Welcome to Kaan Hacıhaliloğlu's Portfolio
 
-I'm a Data Scientist based in Istanbul, passionate about machine learning, data analysis, and deep learning. With a background in Physics and experience in the e-commerce industry, I bring a unique perspective to solving complex data problems.
-
+I'm a Data Scientist based in Istanbul, passionate about machine learning, data analysis, and deep learning. With a background in Physics.
 
 
 ## Recent Blog Posts
