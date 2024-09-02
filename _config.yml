@@ -22,4 +22,5 @@ header_pages:
 
 sass:
   sass_dir: _sass
+  style: compressed
 permalink: /:categories/:title/
