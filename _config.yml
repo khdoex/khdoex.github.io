@@ -1,0 +1,25 @@
+title: Kaan Hacıhaliloğlu
+email: kaanhacihaliloglu@gmail.com
+description: >-
+  Kaan Hacıhaliloğlu's personal portfolio and blog. 
+  Sharing his personal thoughts and experiences.
+baseurl: ""
+url: "http://kaanhacihaliloglu.com"
+github_username: khdoex
+linkedin_username: kaanhacihaliloglu
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom variables
+header_pages:
+  - about.md
+  - projects.md
+  - blogs.md
+
+sass:
+  sass_dir: _sass
+permalink: /:categories/:title/

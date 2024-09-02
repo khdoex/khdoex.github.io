@@ -1,0 +1,52 @@
+// Set this variable to 'gray' or 'dark-blue' to choose the gradient
+$gradient-theme: 'dark-blue';
+
+@use 'sass:math';
+
+@function get-gradient($theme) {
+  @if $theme == 'gray' {
+    @return linear-gradient(to bottom right, #f0f0f0, #a0a0a0);
+  } @else if ($theme == 'dark-blue') {
+    @return linear-gradient(to bottom right, #2c3e50, #1a2533);
+  }
+}
+
+body {
+  background: get-gradient($gradient-theme);
+  color: if($gradient-theme == 'gray', #333333, #ffffff);
+}
+
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #424242;
+  background-color: if($gradient-theme == 'gray', #e0e0e0, #1a2533);
+}
+
+.site-title, .site-title:visited {
+  color: if($gradient-theme == 'gray', #333333, #ffffff);
+}
+
+.site-nav .page-link {
+  color: if($gradient-theme == 'gray', #333333, #ffffff);
+}
+
+.post-link {
+  color: if($gradient-theme == 'gray', #333333, #ffffff);
+}
+
+.post-content h2 {
+  color: if($gradient-theme == 'gray', #333333, #ffffff);
+}
+
+a {
+  color: if($gradient-theme == 'gray', #4a4a4a, #3498db);
+  &:visited {
+    color: if($gradient-theme == 'gray', #666666, #2980b9);
+  }
+  &:hover {
+    color: if($gradient-theme == 'gray', #000000, #1abc9c);
+  }
+}
+
+// Add this line at the end of the file to force a change
+.force-change { display: none; }
